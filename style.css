@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    margin: auto;
+    text-align: center;
+    background-color: #050229;
+}
+
+#screen{
+    background-color: #000000;
+    display: block;
+    margin-top: 5px;
+}
+
+#buttonPlay, #buttonPause{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 30px 15px 30px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 30px
+}
+
+#buttonPlay:hover, #buttonPause:hover{
+    cursor: pointer;
+}
+
+#footer{
+    position:relative;
+    bottom: 0px;
+    width: 100%;
+}
+
+a, p{
+    background-color: #ffffff;
+    text-decoration: none; 
+    color: #000000
+}
